@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@api/*": ["src/api/*"],
+      "@types/*": ["src/types/*"],
+      "@modules/*": ["src/modules/*"]
+    }
+  },
+  "include": ["src", "src/custom.d.ts"],
+  "exclude": ["src/types/api.ts"],
+  "typeRoots": ["node_modules/@types", "src/types"]
+}
