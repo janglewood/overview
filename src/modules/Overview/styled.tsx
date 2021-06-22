@@ -8,4 +8,6 @@ export const StyledOverviewContainer = styled.div`
 
 export const StyledOverviewData = styled.div`
   display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 1rem;
 `;

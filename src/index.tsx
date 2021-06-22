@@ -6,13 +6,17 @@ import { Provider } from "react-redux";
 import { ThemeProvider } from "styled-components";
 import { theme } from "themes";
 import "./index.css";
+import { ApolloProvider } from "@apollo/client";
+import { gqlClient } from "./gql/apollo-config";
 
 ReactDOM.render(
   <StrictMode>
     <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <App />
-      </ThemeProvider>
+      <ApolloProvider client={gqlClient}>
+        <ThemeProvider theme={theme}>
+          <App />
+        </ThemeProvider>
+      </ApolloProvider>
     </Provider>
   </StrictMode>,
   document.getElementById("root")

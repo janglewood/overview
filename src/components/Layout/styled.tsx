@@ -5,7 +5,7 @@ export const StyledLayout = styled.main`
   grid-template-areas:
     "header header"
     "nav-side-bar main-content";
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 10fr;
   height: 100%;
   background-color: ${({ theme }) => theme.palette.background.primary};

@@ -9,7 +9,7 @@ const OverviewHeader: FC = () => {
     <StyledOverviewHeader>
       <StyledOverviewHeaderTitle>Realtime Overview</StyledOverviewHeaderTitle>
       {/* <StyledOverviewDropdown label="KitGroup" /> */}
-      <div>KitGroup</div>
+      <div>Kit Group</div>
     </StyledOverviewHeader>
   );
 };

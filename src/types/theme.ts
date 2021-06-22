@@ -5,10 +5,19 @@ export interface IPalette {
     primary: string;
     secondary: string;
     activeNavButton: string;
+    mainRed: string;
+    mainWhite: string;
+    funnel: string;
+    funnelResult: string;
+  };
+  borders: {
+    funnelBorder: string;
   };
   fonts: {
     primary: string;
     secondary: string;
+    mainRed: string;
+    mainDarkBlue: string;
   };
   icons: {};
   state: {};

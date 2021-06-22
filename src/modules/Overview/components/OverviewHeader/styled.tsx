@@ -5,6 +5,7 @@ export const StyledOverviewHeader = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 `;
 
 export const StyledOverviewHeaderTitle = styled.div`
